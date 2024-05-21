@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <title>Facebook</title>
+</head>
+<body>
+  <div class="container">
+
+    <nav>
+      <div class="nav-left">
+          <div class="logo">
+              <img src="img/logo.jpg" alt="">
+          </div>
+
+          <div class="search-box">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" placeholder="Buscar">
+          </div>
+      </div>
+
+      <div class="nav-center">
+          <i class="fa-solid fa-house"></i>
+          <a href=""><i class="fa-solid fa-tv"></i></a>
+          <a href=""><i class="fa-solid fa-store"></i></a>
+          <a href=""><i class="fa-solid fa-user"></i></a>
+          <a href=""><i class="fa-solid fa-gamepad"></i></a>
+      </div>
+
+      <div class="nav-right">
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-brands fa-signal-messenger"></i>
+          <i class="fa-solid fa-bell"></i>
+
+
+          <img src="img/profile.jpg" alt="" class="profile-pic" onclick="opencard()">
+
+      <div class="card-menu-wrap" id="cardWrap">
+          <div class="card-menu">
+              <div class="profile-menu">
+                  <img src="img/profile-pic.jpg" alt="">
+                  <p>Artorias</p>
+              </div>
+
+              <a href="#" class="card-menu-items">
+                  <img src="img/configuracion.png" alt="">
+                  <p>Configuración y privacidad</p>
+                  <span>></span>
+              </a>
+              <a href="#" class="card-menu-items">
+                  <img src="img/Ayuda.png" alt="">
+                  <p>Ayuda y Soporte</p>
+                  <span>></span>
+              </a>
+              <a href="#" class="card-menu-items">
+                  <img src="img/Oscuro.png" alt="">
+                  <p>Pantalla y accesibilidad</p>
+                  <span>></span>
+              </a>
+              <a href="#" class="card-menu-items">
+                  <img src="img/Comentario.png" alt="">
+                  <p>Enviar comentarios</p>
+              </a>
+              <a href="#" class="card-menu-items">
+                  <img src="img/Sesion.png" alt="">
+                  <p>Cerrar sesión</p>
+              </a>
+          </div>
+      </div>
+      </div>
+  </nav>
+
+
+    <!-- -------------------------------->
+ 
+    <div class="main">
+      <div class="left">
+        <div class="img">
+          <img src="img/profile-pic.jpg" alt="profile-pic">
+          <p>Artorias</p>
+        </div>
+        <div class="img">
+          <img src="img/Amigos.png" alt="Amigos">
+          <p>Amigos</p>
+        </div>
+        <div class="img">
+          <img src="img/Noticia.png" alt="Noticia">
+          <p>Noticias</p>
+        </div>
+        <div class="img">
+          <img src="img/Grupo.png" alt="Grupo">
+          <p>Grupos</p>
+        </div>
+        <div class="img">
+          <img src="img/Market.png" alt="Market">
+          <p>MarketPlace</p>
+        </div>
+        <div class="img">
+          <img src="img/Video.png" alt="Video">
+          <p>Videos</p>
+        </div>
+        <div class="img">
+          <img src="img/Ver.png" alt="Ver">
+          <p>Ver Mas</p>
+        </div>
+        <hr>
+        <div class="shortcuts">
+          <p>Tus Atajos</p><a href="#">Editar</a>
+        </div>
+        <div class="img">
+          <img src="img/Bubble.png" alt="Bubble">
+          <p>Bubble Game</p>
+        </div>
+        <div class="img">
+          <img src="img/CandyCrush.png" alt="CandyCrush">
+          <p>Candy Crush Saga</p>
+        </div>
+        <div class="img">
+          <img src="img/BubbleShooter.png" alt="BubbleShooter">
+          <p>Bubble Shooter</p>
+        </div>
+        <div class="img">
+          <img src="img/BubbleShooter.png" alt="BubbleShooter">
+          <p>Bubble Shooter</p>
+        </div>
+        <div class="img">
+          <img src="img/BubbleShooter.png" alt="BubbleShooter">
+          <p>Bubble Shooter</p>
+        </div>
+      </div>
+      
+      
+      <div class="main-center">
+        <div class="top-box">
+          <div class="my-story">
+            <img src="img/profile-pic.jpg" alt="profile-pic">
+            <div class="upload">
+              <img src="img/upload.png" alt="upload">
+              <p>Crea Historia</p>
+            </div>
+          </div>
+          <div class="friends-story">
+            <img src="img/status.jpg" alt="status">
+            <div class="friend-profile">
+              <img src="img/miembro1.jpg" alt="miembro1">
+              <div class="circle"></div>
+            </div>
+            <div class="friend-name">
+              <p>Ciaran</p>
+            </div>
+          </div>
+          <div class="friends-story">
+            <img src="img/status2.jpg" alt="status2">
+            <div class="friend-profile">
+              <img src="img/miembro2.jpg" alt="miembro2">
+              <div class="circle"></div>
+            </div>
+            <div class="friend-name">
+              <p>Solaire de Astora</p>
+            </div>
+          </div>
+          <div class="friends-story">
+            <img src="img/status3.jpg" alt="status3">
+            <div class="friend-profile">
+              <img src="img/miembro3.jpg" alt="miembro3">
+              <div class="circle"></div>
+            </div>
+            <div class="friend-name">
+              <p>Gough</p>
+            </div>
+          </div>
+          <div class="friends-story">
+            <img src="img/status4.jfif" alt="status4">
+            <div class="friend-profile">
+              <img src="img/miembro4.jpg" alt="miembro4">
+              <div class="circle"></div>
+            </div>
+            <div class="friend-name">
+              <p>gwym</p>
+            </div>
+          </div>
+        </div>
+
+        <!--------------------------------------------------->
+        <div class="create-post">
+          <div class="ptop">
+            <img src="img/profile-pic.jpg" alt="profile-pic"> <input type="text" placeholder="Qué estás pensando, Artorias?">
+          </div>
+          <hr>
+          <div class="pbottom">
+            <div class="post-icon">
+              <p>En Vivo</p>
+            </div>
+            <div class="post-icon">
+              <p>Foto/Video</p>
+            </div>
+            <div class="post-icon">
+              <p>Sentimiento/actividad</p>
+            </div>
+          </div>
+        </div>
+        <ul class="listado-post">
+          <li>
+            <div class="friends-post">
+              <div class="friends-ptop">
+                <div class="img-name">
+                  <img src="img/miembro1.jpg" alt="miembro1">
+                  <div class="friends-name">
+                    <p class="friends-name">Ciaran</p>
+                    <p class="time">2h.</p>
+                  </div>
+                </div>
+                <div class="menu"></div>
+              </div><img src="img/post1.jpg" alt="post1">
+              <div class="info">
+                <div class="post-icons">
+                  <img src="img/like.png" alt="like"> <img src="img/risa.png" alt="risa"> <img src="img/corazon.png" alt="corazon">
+                  <p>Tu y otras 10 personas</p>
+                </div>
+                <div class="comentarios">
+                  <p>5 comentarios</p>
+                  <p>1 compartido</p>
+                </div>
+              </div>
+              <hr>
+              <div class="like">
+                <div class="like-icon">
+                  <p>like</p>
+                </div>
+                <div class="like-icon">
+                  <p>Comentarios</p>
+                </div>
+                <div class="like-icon">
+                  <p>Compartir</p>
+                </div>
+              </div>
+              <hr>
+              <div class="comment-wrapper">
+                <img src="img/profile-pic.jpg" alt="profile-pic">
+                <div class="circle"></div>
+                <div class="comment-search">
+                  <input type="text" placeholder="escribe un comentario">
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="friends-post">
+              <div class="friends-ptop">
+                <div class="img-name">
+                  <img src="img/miembro1.jpg" alt="miembro1">
+                  <div class="friends-name">
+                    <p class="friends-name">Ciaran</p>
+                    <p class="time">2h.</p>
+                  </div>
+                </div>
+                <div class="menu"></div>
+              </div><img src="img/post1.jpg" alt="post1">
+              <div class="info">
+                <div class="post-icons">
+                  <img src="img/like.png" alt="like"> <img src="img/risa.png" alt="risa"> <img src="img/corazon.png" alt="corazon">
+                  <p>Tu y otras 10 personas</p>
+                </div>
+                <div class="comentarios">
+                  <p>5 comentarios</p>
+                  <p>1 compartido</p>
+                </div>
+              </div>
+              <hr>
+              <div class="like">
+                <div class="like-icon">
+                  <p>like</p>
+                </div>
+                <div class="like-icon">
+                  <p>Comentarios</p>
+                </div>
+                <div class="like-icon">
+                  <p>Compartir</p>
+                </div>
+              </div>
+              <hr>
+              <div class="comment-wrapper">
+                <img src="img/profile-pic.jpg" alt="profile-pic">
+                <div class="circle"></div>
+                <div class="comment-search">
+                  <input type="text" placeholder="escribe un comentario">
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+
+      
+
+    <div class="main-right">
+        <div class="sponsored-section">
+          <h4>Sponsors</h4>
+          <div class="sponsored-link">
+            <img src="img/anuncios.jpeg" alt="anuncios">
+            <p>servicios de publicidad en línea<br>
+            <a href="">OnlieServices.com</a></p>
+          </div>
+          <div class="sponsored-link">
+            <img src="img/anuncios.jpeg" alt="anuncios">
+            <p>servicios de publicidad en línea<br>
+            <a href="">OnlieServices.com</a></p>
+          </div>
+        </div>
+        <hr>
+        <div class="page-section">
+          <h4>tus páginas y perfiles</h4>
+          <div class="page-links">
+            <img src="img/profile-pic.jpg" alt="profile-pic">
+            <p>Artorias</p>
+          </div>
+          <div class="page-links-item">
+            <img src="img/CambioPagina.png" alt="CambioPagina">
+            <p>Cambiar perfil</p>
+          </div>
+          <div class="page-links-item">
+            <img src="img/Promocion.png" alt="Promocion">
+            <p>Crear promocion</p>
+          </div>
+        </div>
+        <hr>
+        <div class="friend-section">
+          <h4>Solicitudes de Amistad</h4>
+          <div class="friend-section-item">
+            <div class="picture"><img src="img/foto2.jpg" alt="foto2"></div>
+            <div class="content">
+              <div class="head-contacto">
+                <h5>Ornstein</h5>
+                <p>1h</p>
+              </div>
+              <div class="middle-contacto">
+                <img src="img/foto2.jpg" alt="foto2">
+                <p>1 amigo en común</p>
+              </div>
+              <div class="buttons">
+                <button type="submit" class="confirm">Aceptar</button> <button type="submit" class="delete">Rechazar</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend-section-item">
+            <div class="picture"><img src="img/foto2.jpg" alt="foto2"></div>
+            <div class="content">
+              <div class="head-contacto">
+                <h5>Ornstein</h5>
+                <p>1h</p>
+              </div>
+              <div class="middle-contacto">
+                <img src="img/foto2.jpg" alt="foto2">
+                <p>1 amigo en común</p>
+              </div>
+              <div class="buttons">
+                <button type="submit" class="confirm">Aceptar</button> <button type="submit" class="delete">Rechazar</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend-section-item">
+            <div class="picture"><img src="img/foto2.jpg" alt="foto2"></div>
+            <div class="content">
+              <div class="head-contacto">
+                <h5>Ornstein</h5>
+                <p>1h</p>
+              </div>
+              <div class="middle-contacto">
+                <img src="img/foto2.jpg" alt="foto2">
+                <p>1 amigo en común</p>
+              </div>
+              <div class="buttons">
+                <button type="submit" class="confirm">Aceptar</button> <button type="submit" class="delete">Rechazar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-section">
+          <div class="contact-search">
+          <h4>Contactos</h4><img src="img/buscar.png" alt="buscar"> <img src="img/Ver.png" alt="Ver"></div>
+          <div class="page-links">
+            <img src="img/miembro1.jpg" alt="miembro1">
+            <p>Ciaran</p>
+          </div>
+          <div class="page-links">
+            <img src="img/miembro2.jpg" alt="miembro2">
+            <p>Solaire de Astora</p>
+          </div>
+          <div class="page-links">
+            <img src="img/miembro3.jpg" alt="miembro3">
+            <p>Gough</p>
+          </div>
+          <div class="page-links">
+            <img src="img/miembro4.jpg" alt="miembro4">
+            <p>gwym</p>
+          </div>
+        </div>
+        
+      </div>
+
+
+
+    </div>
+
+
+
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
